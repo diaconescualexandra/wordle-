@@ -6,7 +6,7 @@ Programul "main.py" reprezintă o clonă a jocului Wordle – generează număru
 
 Pentru a afla entropia, algoritmul calculează frecvența fiecărei litere pe fiecare poziție și o stochează într-un dicționar. Calculează probabilitatea ca fiind frecvența literei pe poziția corespunzătoare/numărul total de cuvinte. Entropia este apoi calculată cu formula E= Σ (p(x)*log2(1/p(x))), unde p(x) este probabilitatea.
 
-Prima dată calculăm entropia doar pentru cuvintele cu litere distinte, astfel cuvântul cu cea mai mare entropie este “CAREI”. Prin urmare, acesta este cuvântul cu care deschidem. 
+Prima dată calculăm entropia doar pentru cuvintele cu litere distincte.
 
 Următorul guess este cuvântul cu cea mai mare entropie, acum fiind calculată în funcție de toate cuvintele. Apelăm funcția “functie“ pentru feedback. Vom primi: ‘n’- litera nu este în cuvânt, ‘g’ - litera este în cuvânt, dar nu pe poziția respectivă, ‘v’ - litera este în cuvânt, pe aceeași poziție.
 
@@ -24,7 +24,7 @@ Media noastra de încercări este de: 5.54
 
 Pentru rulare trebuie mai intai compilat main.py, si in timp ce il compileaza, se da compilare si la program.py, iar inout.txt trebuie sa fie mereu gol (inainte de compilare).
 
-Programul creare_dictionar.py adaugat la program.py de la linia 158 pana la final va afisa fisierul solutii.txt
+
 
 
 
