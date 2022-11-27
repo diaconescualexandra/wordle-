@@ -22,6 +22,10 @@ Deci, scoatem cuvintele care conțin 'A', dar și pe cele care au 'C' pe poziți
 Toate acestea sunt implementate intr-un while, în 'Program.py'.
 Media noastra de încercări este de: 5.54
 
+Pentru rulare trebuie mai intai compilat main.py, si in timp ce il compileaza, se da compilare si la program.py, iar inout.txt trebuie sa fie mereu gol (inainte de compilare).
+
+Programul creare_dictionar.py adaugat la program.py de la linia 158 pana la final va afisa fisierul solutii.txt
+
 
 
 
